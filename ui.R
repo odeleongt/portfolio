@@ -81,11 +81,7 @@ shinyUI(
           tabPanel("Developing Data Products",
                    includeMarkdown("./content/09_Developing Data Products.md"),
                    fluidRow(
-                     column(3,
-                            wellPanel(
-                              fluidRow(
-                                numericInput("n9", "Number of obs", 100)))),
-                     column(9, textOutput("text9")))),
+                     HTML('<iframe width="100%" height="600" style = "", src = "https://odeleon.shinyapps.io/portfolio"></iframe>'))),
           
           tabPanel("Data Science Capstone",
                    includeMarkdown("./content/10_Data Science Capstone.md"),
