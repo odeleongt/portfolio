@@ -1,3 +1,6 @@
+# Load packages
+library(package = "markdown")
+
 # Define courses
 courses <- data.frame(stringsAsFactors = FALSE,
                       course = c("Data scientist toolbox",
